@@ -1,0 +1,410 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ContainerUno{
+    background-image: url(assets/banner-bk.jpg);
+    background-repeat: no-repeat;
+    padding: 10%;
+    color: white;
+}
+.ContainerUno img{
+    width: 7%;
+}
+.ContainerUno h2{
+     width: 30%;
+     font-size: 250%;
+}
+.ContainerUno p{
+    width: 75%;
+}
+.Button{
+    padding: 6px;
+    width: 10%;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(0, 250, 154);
+}
+.ContainerDos{
+    margin-top: 30px;
+    text-align: center;
+    padding: 3%;
+}
+.price{
+    font-size: 1rem;
+}
+.bold{
+    font-size: 5rem;
+    font-weight: bold;
+}
+.ContainerDoss{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    padding: 0%;
+}
+.Container img{
+    width: 30%;
+}
+.Container p{
+     width: 100%;
+}
+.ContainerTres{
+    margin-top: 20px;
+    padding: 5%;
+    display: flex;
+    flex-direction: row-reverse;
+    background: linear-gradient(350deg, rgba(0,250,154) 50%, rgba(255,255,255,1) 50%);
+}
+.ContainerTres img{
+    width: 40%;
+}
+.Button2{
+    padding: 6px;
+    width: 15%;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(44, 62, 80);
+}
+.ContainerCuatro{
+    background-color: rgb(0, 250, 154);
+    padding: 4%;
+    display: flex;
+}
+.ContainerCuatro img{
+    width: 40%;
+}
+.Button3{
+    padding: 6px;
+    width: 15%;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(44, 62, 80);
+}
+.ContainerCinco{
+    padding: 5%;
+    text-align: center;
+}
+.ContainerCincoo{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.Container22{
+    background-color: rgb(44, 62, 80);
+    padding: 3%;
+    color: white;
+    border-radius: 2%;
+}
+.Container2{
+    padding: 3%;
+}
+.Button6{
+    background-color: rgb(0, 250, 154);
+    border: none;
+    border-radius: 10px;
+    padding: 6px;
+    width: 50%;
+}
+.Button5{
+    border-radius: 10px;
+    padding: 6px;
+    width: 60%;
+    background-color: white;
+    border-color: rgb(44, 62, 80);
+}
+.ContainerSeis{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    padding: 3%;
+    background-color: rgb(235, 237, 239 );
+}
+.ContainerSeis img{
+    width: 95%;
+}
+.ContainerSiete{
+    background-image: url(assets/contact-bk.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-start;
+    padding: 6%;
+}
+.Container3{
+    width: 60%;
+    color: white;
+}
+.Container3 h2{
+    font-size: 30px;
+}
+.Container3 p{
+    width: 80%;
+}
+.Container33{
+    color: rgb(0, 250, 154);
+    display: flex;
+    width: 15%;
+}
+.Container4{
+    background-color: transparent;
+    border-color: rgb(0, 250, 154);
+    width: 93%;
+    padding: 6px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.Container5{
+    display: flex;
+    width: 120%;
+    background-color: transparent;
+    border-color: rgb(0, 250, 154);
+    padding: 7px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.Containers5{
+    display: flex;
+    color: rgb(0, 250, 154);
+}
+.Button7{
+    border: none;
+    background-color: rgb(0, 250, 154);
+    padding: 10px;
+    border-radius: 5px;
+    width: 230%;
+    margin-top: 20px;
+}
+.Container6{
+    background-color: transparent;
+    border-color: rgb(0, 250, 154);
+    display: flex;
+    width: 230%;
+    padding: 20%;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.Containers6{
+    display: flex;
+    margin-top: 15px;
+}
+.ContainerG{
+    display: flex;
+    flex-direction: column;
+}
+.ContainerH{
+    display: flex;
+    flex-direction: column;
+}
+.ContainerOcho{
+    background-color: rgb( 2, 36, 59);
+    display: flex;
+    padding: 3%;
+}
+.ContainerOcho img{
+    width: 65%;
+}
+.Copyright{
+    display: flex;
+    width: 85%;
+    color: white;
+    margin-top: 15px;
+}
+.Logos{
+    display: flex;
+    width: 15%;
+} 
+@media (max-width:920px){
+
+    .ContainerUno h2{
+        font-size: 30px;
+        width: 50%;
+    }
+    .ContainerUno p{
+        width: 100%;
+        font-size: 15px;
+    } 
+    .Button{
+        width: 15%;
+    }
+    .ContainerDos h2{
+        font-size: 25px;
+    }
+    .ContainerDos{
+        font-size: 15px;
+    }
+    .ContainerTres{
+        padding: 7%;
+    }
+    .ContainerTres{
+        background: linear-gradient(352deg, rgba(0,250,154) 30%, rgba(255,255,255,1) 30%);
+    }
+    .ContainerTres p{
+        width: 100%;
+        font-size: 15px;
+    }
+    .Button2{
+        width: 23%;
+    }
+    .ContainerCuatro p{
+        font-size: 15px;
+    }
+    .Button3{
+        width: 21%;
+    }
+    .ContainerCinco p{
+        font-size: 15px;
+    }
+    .ContainerSeis img{
+        width: 75%;
+    }
+    .price{
+        font-size: 1rem;
+    }
+    .bold{
+        font-size: 3rem;
+        font-weight: bold;
+    }
+    .ContainerSiete h2{
+        font-size: 30px;
+    }
+    .ContainerSiete p{
+        font-size: 15px;
+    }
+    .Container33{
+        width: 19%;
+    }
+    .ContainerG{
+        width: 92%;
+    }
+    .Container3{
+        width: 67%;
+    }
+    .Container5{
+        width: 120%;
+    }
+}
+@media (max-width:768px ){
+
+    .ContainerUno p{
+        width: 110%;
+        font-size: 80%;
+    }
+    .ContainerUno h2{
+        width: 55%;
+    }
+    .Button{
+        width: 24%;
+        padding: 4px;
+    }
+    .ContainerDoss{
+        display: block;
+    }
+    .ContainerTres{
+        display: block;
+    }
+    .ContainerCuatro{
+        display: block;
+    }
+    .Container img{
+        width: 20%;
+    }
+    .Container h2{
+        font-size: 20px;
+    }
+    .ContainerCincoo{
+        display: block; 
+        justify-items: center;
+    }
+    .ContainerSiete{
+        display: block;
+    }
+    .Container3{
+        width: 108%;
+    }
+    .Container33{
+        margin-top: 10%;
+    }
+    .Container4{
+        width: 400%;
+    }
+    .Container6{
+    width: 400%;
+    padding: 30%;
+    }
+   .Container22{
+    width: 50%;
+    margin-top: 5%;
+   }
+   .Container2{
+    margin-top: 5%;
+   }
+   .ContainerTres img{
+    width: 50%;
+   }
+   .ContainerCuatro img{
+    width: 50%;
+   }
+   .ContainerTres{
+    background: linear-gradient(352deg, rgba(0,250,154) 17%, rgba(255,255,255,1) 17%);
+ }
+ .ContainerSeis img{
+    width: 80%;
+ }
+ .ContainerOcho{
+    align-items: center;
+ }
+ .Copyright{
+    margin-top: 0px;
+    font-size: 80%;
+ }
+ .Logos{
+    width: 25%;
+ }
+ .ContainerH{
+    display: none;
+ }
+ .Button7{
+    width: 400%;
+ }
+}
+@media (max-width:480px ){
+
+    .ContainerUno{
+        padding: 20px;
+    }
+    .ContainerUno h2{
+        width: 75%;
+    }
+    .ContainerUno p{
+        width: 100%;
+
+    }
+    .Button{
+        width: 30%;
+    }
+    .ContainerTres p{
+        width: 100%;
+    }
+    .Button2{
+        width: 29%;
+    }
+    .Button3{
+        width: 27%;
+    }
+    .ContainerCuatro p{
+        width: 100%;
+    }
+    .Container3{
+        width: 101%;
+    }
+    .Container33{
+        width: 80px;
+    }
+
+}
+ 
